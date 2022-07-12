@@ -1,0 +1,303 @@
+body {
+    background-color: #1a1920;
+}
+
+h1{
+    font-size: 60px;
+    color: #ffffff;
+}
+
+h2{
+    color: #ffffff;
+}
+
+p{
+    color: #ffffff;
+}
+
+.navbar-custom{
+    background-color: #1a1920
+}
+
+.navbar{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.vid{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.vid video{
+    height: 500px;
+    width: auto;
+}
+
+#latest-img{
+  width: auto;
+  height: 400px;
+}
+
+.latest{
+    text-align: center;
+    margin-left: 140px;
+}
+
+.release{
+    margin-top: 100px;
+    margin-right: 140px;
+}
+
+#lr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.isian p{
+    margin-top: 40px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#judul{
+    margin-top: 80px;
+}
+
+#judul2{
+    margin-top: 40px;
+}
+
+.brand{
+    margin-top: 40px;
+}
+
+.founder{
+    margin-top: 40px;
+}
+
+.f1{
+    text-align: end;
+}
+
+.f2{
+    text-align: start;
+}
+
+#maps{
+    width: 400px;
+    height: 400px;
+}
+
+.form-feedback{
+    max-width: 420px;
+    margin: 50px auto;
+}
+
+.feedback-input{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid white;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    outline: 0;
+}
+
+.feedback-input:focus{
+    border: 2px solid #333;
+}
+
+.form-feedback textarea{
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+.form-feedback button{
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: black;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+
+.form-feedback button:hover{
+    background: #333;
+}
+
+.form-shop{
+    font-size: 20px;
+    color: #ffffff;
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-shop table{
+    width: 500px;
+}
+
+.form-shop textarea{
+    height: 150px;
+    line-height: 150%;
+    resize: none;
+}
+
+.form-shop .co-input{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid white;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.form-shop .co-input:focus{
+    border: 2px solid #333;
+}
+
+.form-shop .co-input2{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: #1a1920;
+    border: 2px solid white;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.form-shop .co-input2:focus{
+    border: 2px solid #333;
+}
+
+.fs{
+    margin-top: 40px;
+}
+
+.btn-custom{
+    width: 100px;
+}
+
+.tatacara{
+    margin-top: 40px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+    .navbar{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .navbar-brand img{
+        height: 18px;
+    }
+    #lr{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .vid video{
+        height: 200px;
+        width: auto;
+    }
+    .latest{
+        margin-left: 0px;
+    }
+    .release{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    h1{
+        font-size: 30px;
+    }
+    #latest-img{
+        height: 200px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .isian p{
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #judul2{
+        margin-top: 20px;
+    }
+    .f1{
+        text-align: center;
+    }
+    .f2{
+        text-align: center;
+    }
+    #maps{
+        width: 300px;
+        height: 200px;
+    }
+    .form-feedback{
+        max-width: 300px;
+    }
+    .form-shop{
+        font-size: 10px;
+        max-width: 200px;
+        margin: auto;
+    }
+    .form-shop table{
+        width: 220px;
+    }
+    .form-shop .co-input{
+        font-weight: 500;
+        font-size: 10px;
+        border-radius: 5px;
+        line-height: 5px;
+    }
+    .form-shop .co-input2{
+        color: white;
+        font-weight: 500;
+        font-size: 10px;
+        border-radius: 5px;
+        line-height: 5px;
+    }
+    .btn-custom{
+        width: 85px;
+    }
+  }
